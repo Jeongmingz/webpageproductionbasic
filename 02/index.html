@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exchange Units</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <h1>단위 변환 프로그램</h1>
+  <input type="text" id='inBox' autocomplete="off">
+  <select id="inSelect">
+    <option value="m">m</option>
+    <option value="cm">cm</option>
+    <option value="mm">mm</option>
+    <option value="inch">inch</option>
+    <option value="mile">mile</option>
+  </select>
+  <span>=></span>
+  <select id="outSelect">
+    <option value="m">m</option>
+    <option value="cm">cm</option>
+    <option value="mm">mm</option>
+    <option value="inch">inch</option>
+    <option value="mile">mile</option>
+  </select>
+  <input type="text" id='outBox' readonly='true' autocomplete="off">
+  <button id='goBtn'>변환</button>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
