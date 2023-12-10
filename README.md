@@ -4,8 +4,11 @@
 > ##
 
 ##
-##### Part. addEventListener("", () => {})
+##### Part 01. addEventListener("", () => {})
 1. 01-Login
 2. 02-Exchange Units
 3. 03-Image Change Banner
+
+##### Part 02. Javascript Lib Chart JS
+1. 04-Bar Chart Test
 ---
