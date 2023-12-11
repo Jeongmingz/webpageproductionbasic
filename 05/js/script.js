@@ -58,4 +58,23 @@ numbers
   .map((val) => val * val)
   .forEach((val) => {
     console.log(val)
-  })
+  });
+
+
+let nums = [273, 25, 75, 52, 103, 32, 57, 24, 76];
+
+  nums
+  .filter((val) => val % 2 == 1)
+  .filter((val) => val <= 100)
+  .filter((val) => val % 5 == 0)
+  .forEach((val) => {
+    console.log(val)
+  });
+
+
+const array = ['사과', '배', '귤', '바나나'];
+
+array.forEach(function (value, index, array){
+  document.write(value);
+  document.write('<br>')
+})
