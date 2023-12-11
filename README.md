@@ -11,4 +11,14 @@
 
 ##### Part 02. Javascript Lib Chart JS
 1. 04-Bar Chart Test
+
+##### Part 03. Callback Function
+1. 05-Callback Function
+
+##### Part 04. Timer Function
+1. 06-Timer Function
+
+##### Part 05. JSON
+1. 07-JSON
+
 ---
